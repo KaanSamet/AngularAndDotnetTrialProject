@@ -22,8 +22,8 @@ There are two main folders.
 
   -----
 
-  - I installed Microsoft.EntityFrameworkCore, NuGet package Microsoft.EntityFrameworkCore.Design and Microsoft.EntityFrameworkCore.SqlServer to the project.
-  - I added couple of buttons and text boxes in order to provide some UI to the client in to editusercomponent.html. I also bonded update, delete and create functions to the corresponding buttons.
-  - I added 2 main buttons to app.component.html as edit and create buttons. I also added the http call for real time table refresh and sql database update by writing the corresponding CRUD operation functions to editUser component.
-  - I migrated the project and acquired migrations folder. Then, created the SQL database.
-  - I modified the userController to possess the DataContext thus, it is directly communicating with the SQL database.
+- I installed Microsoft.EntityFrameworkCore, NuGet package Microsoft.EntityFrameworkCore.Design and Microsoft.EntityFrameworkCore.SqlServer to the project.
+- I added couple of buttons and text boxes in order to provide some UI to the client in to editusercomponent.html. I also bonded update, delete and create functions to the corresponding buttons.
+- I added 2 main buttons to app.component.html as edit and create buttons. I also added the http call for real time table refresh and sql database update by writing the corresponding CRUD operation functions to editUser component.
+- I migrated the project and acquired migrations folder. Then, created the SQL database.
+- I modified the userController to possess the DataContext thus, it is directly communicating with the SQL database.
